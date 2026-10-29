@@ -8,10 +8,10 @@ jobs:
 
         steps: 
          - name: hello world
-           runs: echo "hello world"
+           run: echo "hello world"
 
          - name: list
-           runs: ls -l
+           run: ls -l
  
          - name: read 
-           runs: cat readme.md
+           run: cat readme.md

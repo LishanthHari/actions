@@ -4,7 +4,7 @@ on: push
 
 jobs: 
       Lishanth_job:
-        runs_on: ubuntu_latest
+        runs-on: ubuntu_latest
 
         steps: 
          - name: hello world

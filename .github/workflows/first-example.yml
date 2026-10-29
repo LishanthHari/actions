@@ -1,0 +1,17 @@
+name: Lishanth
+
+on: push
+
+jobs: 
+      Lishanth_job:
+        runs_on: ubuntu_latest
+
+        steps: 
+         - name: hello world
+           runs: echo "hello world"
+
+         - name: list
+           runs: ls -l
+ 
+         - name: read 
+           runs: cat readme.md
